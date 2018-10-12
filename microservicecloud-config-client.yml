@@ -5,7 +5,6 @@ spring:
 ---
 spring: 
   port: 8201
-spring:
   profiles: dev
   application:
     name: microservicecloud-config-client
