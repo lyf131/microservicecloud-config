@@ -4,10 +4,14 @@ spring:
     - dev
 ---
 spring: 
+  prot: 8201
+spring: 
   profiles: dev
   application:
     name: microservicecloud-config-atguigu-dev
 ---
+spring: 
+  prot: 8202
 spring: 
   profiles: test
   application:
