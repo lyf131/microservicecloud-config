@@ -4,11 +4,23 @@ spring:
     - dev
 ---
 spring: 
+  prot: 8201
+spring: 
   profiles: dev
   application:
     name: microservicecloud-config-atguigu-dev
+eureka:
+  client:
+    service-url:
+        defaultZone: http://eureka-dev.com:7001/eureka/
 ---
+spring: 
+  prot: 8202
 spring: 
   profiles: test
   application:
     name: microservicecloud-config-atguigu-test
+eureka:
+  client:
+    service-url:
+        defaultZone: http://eureka-dev.com:7001/eureka/
